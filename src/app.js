@@ -7,7 +7,7 @@ import { connectMongoDB } from "./src/config/mongoDb.config.js";
 // Conexión con la base de datos
 connectMongoDB();
 
-const PORT = 8081;
+const PORT = 8080;
 const app = express();
 
 app.use(express.json());
